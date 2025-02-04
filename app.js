@@ -9,7 +9,7 @@ var usersRouter = require('./routes/users');
 var helloRouter= require('./routes/hello');
 var notesRouter = require('./routes/notes');
 var catRouter = require('./routes/cat');
-var catRouter = require('./routes/dog');
+var dogRouter = require('./routes/dog');
 
 var app = express();
 
