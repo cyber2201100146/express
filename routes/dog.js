@@ -3,7 +3,7 @@ request('https://dog.ceo/api/breeds/image/random', function (error, response, bo
 if (!error && response.statusCode == 200) {
 const data = JSON.parse(body);
 console.log(body);
-const dogImageUrl = data[0].url;
+const dogImageUrl = data.message;
 console.log(dogImageUrl);
 }
 });
