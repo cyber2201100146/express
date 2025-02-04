@@ -28,7 +28,10 @@ app.use('/users', usersRouter);
 app.use('/hello', helloRouter);
 app.use('/notes', notesRouter);
 app.use('/cat', catRouter);
+console.log('dogRouter:', dogRouter);  // 追加
+
 app.use('/dog', dogRouter);
+
 app.use('/index',indexRouter);
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {

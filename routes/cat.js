@@ -7,3 +7,4 @@ const catImageUrl = data[0].url;
 console.log(catImageUrl);
 }
 });
+module.exports = router;

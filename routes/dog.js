@@ -7,3 +7,4 @@ const dogImageUrl = data.message;
 console.log(dogImageUrl);
 }
 });
+module.exports = router;
