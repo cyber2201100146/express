@@ -10,6 +10,7 @@ var helloRouter= require('./routes/hello');
 var notesRouter = require('./routes/notes');
 var catRouter = require('./routes/cat');
 var dogRouter = require('./routes/dog');
+var notes_from_bRouter = require('./routes/notes_from_b');
 
 var app = express();
 
@@ -29,6 +30,7 @@ app.use('/hello', helloRouter);
 app.use('/notes', notesRouter);
 app.use('/cat', catRouter);
 console.log('dogRouter:', dogRouter);  // 追加
+app.use('/notes_from_b', notes_from_bRouter);
 
 app.use('/dog', dogRouter);
 
